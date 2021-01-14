@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\directx9_imgui\converter.h(22): warning C4091: 'static ': ignored on left of 'std::converter::conversion_types_length' when no variable is declared
+C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\directx9_imgui\converter.h(37): warning C4091: 'static ': ignored on left of 'std::converter::conversion_types_area' when no variable is declared
+C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\directx9_imgui\converter.h(50): warning C4091: 'static ': ignored on left of 'std::converter::conversion_types_volume' when no variable is declared
+C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\directx9_imgui\converter.h(68): warning C4091: 'static ': ignored on left of 'std::converter::conversion_types_liquidvolume' when no variable is declared
+C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\directx9_imgui\converter.h(84): warning C4091: 'static ': ignored on left of 'std::converter::conversion_types_weight' when no variable is declared
+  Generating code
+  2 of 1232 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    42 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  directx9_imgui.vcxproj -> C:\Users\apple\Documents\Code\C++\imperial_to_metric_gui\Release\imperial_to_metric_gui.exe
