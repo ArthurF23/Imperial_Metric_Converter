@@ -1,59 +1,9 @@
 #include <string>
 using namespace std;
 
-constexpr float millimeters_per_inch = 25.4f;
-constexpr int inches_per_foot = 12;
-constexpr int feet_per_yard = 3;
-constexpr int yards_per_mile = 1760;
-constexpr float miles_per_nautical_mile = 1.150779f;
-
-constexpr int millimeters_per_centimeter = 10;
-constexpr int centimeters_per_decimeter = 10;
-constexpr int decimeters_per_meter = 10;
-constexpr int meters_per_kilometer = 1000;
 
 
-constexpr float sq_mm_per_sq_in = millimeters_per_inch * millimeters_per_inch;
-constexpr int sq_in_per_sq_ft = inches_per_foot * inches_per_foot;
-constexpr int sq_ft_per_sq_yd = feet_per_yard * feet_per_yard;
-constexpr int sq_yd_per_sq_mi = yards_per_mile * yards_per_mile;
 
-constexpr int sq_mm_per_sq_cm = 100;
-constexpr int sq_cm_per_sq_m = 10000;
-constexpr int sq_m_per_ha = 10000;
-constexpr int sq_ha_per_sq_km = 100;
-
-
-constexpr float cu_mm_per_cu_in = (millimeters_per_inch * millimeters_per_inch) * millimeters_per_inch;
-constexpr int cu_in_per_cu_ft = (inches_per_foot * inches_per_foot) * inches_per_foot;
-
-constexpr int cu_mm_per_cu_cm = 1000;
-constexpr int cu_cm_per_cu_dec = 1000;
-constexpr int cu_dec_per_cu_m = 1000;
-
-
-constexpr float milL_per_floz = 29.5735f;
-constexpr int floz_per_gill = 4;
-constexpr float gill_per_cup = 2.02884f;
-constexpr float cup_per_pint = 1.97157f;
-constexpr int pint_per_quart = 2;
-constexpr int quart_per_gallon = 4;
-
-constexpr int milL_per_cl = 10;
-constexpr int cl_per_decl = 10;
-constexpr int decl_per_l = 10;
-constexpr int l_per_kl = 1000;
-
-
-constexpr float mg_per_oz = 28349.5f;
-constexpr int oz_per_lbs = 16;
-
-constexpr int mg_per_cng = 10;
-constexpr int cng_per_decg = 10;
-constexpr int decg_per_g = 10;
-constexpr int g_per_kg = 1000;
-constexpr int kg_per_t = 1000;
-constexpr int t_per_gg = 1000;
 
 #include "converter.h"
 namespace std {

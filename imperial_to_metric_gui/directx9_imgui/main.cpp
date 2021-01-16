@@ -15,6 +15,18 @@ using namespace std;
 #include <dinput.h>
 #include <tchar.h>
 
+static void HelpMarker(const char* desc)
+{
+    ImGui::TextDisabled("(?)");
+    if (ImGui::IsItemHovered())
+    {
+        ImGui::BeginTooltip();
+        ImGui::PushTextWrapPos(ImGui::GetFontSize() * 35.0f);
+        ImGui::TextUnformatted(desc);
+        ImGui::PopTextWrapPos();
+        ImGui::EndTooltip();
+    }
+}
 
 string remove_trailing_zeros(double input) {
     // Print value to a string
@@ -403,7 +415,7 @@ int main(int, char**)
                 output_double = input_double;
             };
             
-            ImGui::Text((remove_trailing_zeros(input_double) + " / " + (input_double == 0 ? "0" : remove_trailing_zeros(output_double / input_double)) + " = " + remove_trailing_zeros(output_double)).c_str());
+            ImGui::Text((remove_trailing_zeros(input_double) + " / " + (input_double == 0 ? "0" : remove_trailing_zeros(input_double / output_double)) + " = " + remove_trailing_zeros(output_double)).c_str());
             
             ImGui::PopFont();
             ImGui::End();
